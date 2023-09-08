@@ -1,0 +1,6 @@
+
+-git clone git@github.com:Jooker188/test-git.git
+-git remote add origin git@github.com:Jooker188/test-git.git
+-git add nomFichier.txt
+-git commit -S -m "Signed commit"
+-git push --set-upstream origin main     
