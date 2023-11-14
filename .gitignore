@@ -20,3 +20,6 @@ __pycache__/
 
 # Fichiers spécifiques à l'éditeur Visual Studio Code
 .vscode/
+
+
+#ignore tous les fichiers objets, les fichiers d'en-tête, les fichiers générés par le compilateur, les fichiers de sauvegarde, ainsi que les dossiers spécifiques à certains éditeurs. 
