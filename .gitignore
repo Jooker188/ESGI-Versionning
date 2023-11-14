@@ -1,0 +1,22 @@
+# Fichiers objets
+*.o
+
+# Fichiers d'en-tête
+*.h
+
+# Fichiers générés par le compilateur
+*.d
+
+# Dossiers générés par le compilateur
+__pycache__/
+*.cache/
+
+# Fichiers de sauvegarde
+*~
+
+# Fichiers de configuration spécifiques à Vim
+.vim/
+*.swp
+
+# Fichiers spécifiques à l'éditeur Visual Studio Code
+.vscode/
