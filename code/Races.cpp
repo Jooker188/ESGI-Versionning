@@ -24,8 +24,8 @@ Race getRace(string raceReq)
     humain.bonusMANA=100;
 
     Race elfe;
-    elfe.nomRace="Elfe";    //erreur, bio erroné.
-    elfe.bioRace="Les humains sont une espèce intelligente et diversifiée, disposant de capacité de combat équilibrer.";
+    elfe.nomRace="Elfe"; 	//Correction de la bio fait
+    elfe.bioRace="Les elfes sont une race mystique, vivant en harmonie avec la nature. Ils disposent d'une longévité exceptionnelle et de capacité magique accrue.";
     elfe.bonusPV=0;
     elfe.bonusATTAQUE=100;
     elfe.bonusMANA=200;
