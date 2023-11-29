@@ -26,8 +26,6 @@ assignees: ''
 **Comportement Attendu :**
 [Une description claire et concise de ce à quoi vous vous attendiez à ce qu'il se passe.]
 
-**Capture d'écran :**
-[Ajoutez une capture d'écran si elle est pertinente pour comprendre le problème.]
 
 **Environnement :**
 - Système d'exploitation : [Votre OS]
@@ -35,4 +33,3 @@ assignees: ''
 - ...
 
 **Informations Supplémentaires :**
-[Ajoutez ici toutes les informations supplémentaires que vous jugez pertinentes pour comprendre ou résoudre le bug.]
