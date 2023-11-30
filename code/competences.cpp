@@ -61,13 +61,13 @@ competanceSet getCompetance(Classes classe)
     {
         competances base;
         base.nom="boule de feu";
-        base.degats=classe.attaque+classe.mana;
+        base.degats=classe.attaque;  	//attaque corriger
         base.coutMana=20;
         base.tempRecharge=1;
         
         competances skill1;
         skill1.nom="Fatal foudre";
-        skill1.degats=classe.attaque+classe.mana;		//erreur dans le calcule des dégats
+        skill1.degats=classe.attaque+classe.mana;
         skill1.coutMana=200;
         skill1.tempRecharge=12;
         
