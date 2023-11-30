@@ -1,30 +1,36 @@
 # Projet MMORPG - Création de Personnage
 
-Bienvenue dans ESGI Open World, projet RPG dédié à la création de personnage. Ce repository co>
+Bienvenue dans ESGI Open World, projet RPG dédié à la création de personnage. 
+Ce repository contient une série d'issues représentant des fonctionnalités à implémenter pour enrichir l'expérience de création de personnage dans un RPG.
 
 ## Objectif du Projet
 
-Le but de ce projet est d'étendre les fonctionnalités de création de personnage dans un univer>
+Le but de ce projet est d'étendre les fonctionnalités de création de personnage dans un univers de jeu RPG. 
+Chaque issue représente une fonctionnalité spécifique ou un bug qui, une fois implémenté/corrigé, contribuera à offrir une expérience de jeu plus immersive et variée.
 
 ## Liste des Fonctionnalités
 
-Le projet comprend 15 issues, chacune représentant une fonctionnalité distincte. Vous pouvez e>
+Le projet comprend 15 issues, chacune représentant soit une fonctionnalité soit un bug d'une fonctionnalité. 
+Vous pouvez explorer ces issues dans l'onglet "Issues" de ce repository pour obtenir plus de détails sur chaque tâche.
 
-1. [Issue #1: Ajout d'options de personnalisation du visage](#lien_vers_issue_1)
-2. [Issue #2: Intégration de choix de classe](#lien_vers_issue_2)
-3. [Issue #3: Possibilité de sélectionner une race](#lien_vers_issue_3)
-4. [Issue #4: Ajout de compétences de base](#lien_vers_issue_4)
-5. [Issue #5: Personnalisation des vêtements et accessoires](#lien_vers_issue_5)
-6. [Issue #6: Intégration d'une biographie du personnage](#lien_vers_issue_6)
-7. [Issue #7: Choix de la faction ou de l'allégeance](#lien_vers_issue_7)
-8. [Issue #8: Ajout d'options de personnalisation physique](#lien_vers_issue_8)
-9. [Issue #9: Possibilité de choisir un familier ou un animal de compagnie](#lien_vers_issue_9)
-10. [Issue #10: Implémentation de la personnalité du personnage](#lien_vers_issue_10)
-11. [Issue #11: Ajout de statistiques de personnage](#lien_vers_issue_11)
-12. [Issue #12: Personnalisation de la voix du personnage](#lien_vers_issue_12)
-13. [Issue #13: Intégration de quêtes de départ](#lien_vers_issue_13)
-14. [Issue #14: Choix du point de départ dans le monde du jeu](#lien_vers_issue_14)
-15. [Issue #15: Ajout d'options de personnalisation du nom](#lien_vers_issue_15)
+1-Bug/Erreur du nombre de MP de la classe mage 
+2-Bug/La bio de la race elfe est incorecte
+3-Bug/La compétance boule de feu inflige des dégats excessive
+4-Bug/Un joueur a un pseudo invisible
+5-Bug/Impossible de valider la quete de départ
+
+6-Personnalisation des vêtements et accessoires
+7-Choix de la faction ou de l'allégeance
+8-Ajout d'options de personnalisation physique
+9-Implémentation de la personnalité du personnage
+10-Personnalisation de la voix du personnage
+
+11-Multiple choix de point de départ dans le monde du jeu
+12-Nommer un familier
+13-Bug/Le familier gagne pas d'expériance
+14-Ajout de moyen de locomotion
+15-Bug/Cordonnées de spawn incorecte
+
 
 ## Comment Contribuer
 
@@ -34,7 +40,7 @@ Si vous souhaitez contribuer à ce projet, suivez ces étapes :
 2. Commentez sur l'issue pour indiquer que vous souhaitez la prendre en charge.
 3. Fork ce repository, travaillez sur votre fork, puis soumettez une pull request.
 
-Votre contribution est importante, et nous sommes impatients de voir comment ces fonctionnalit>
+Votre contribution est importante, et nous sommes impatients de voir comment ces fonctionnalités enrichiront l'expérience de création de personnage dans notre MMORPG.
 
 Happy coding!
 
