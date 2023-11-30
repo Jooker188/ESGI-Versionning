@@ -24,7 +24,7 @@ Classes getClasse(string nomClasse)
    Classes mage;
    mage.nom="Mage";
    mage.pv=600;
-   mage.attaque=3000;		//erreur dans la valeure de l'attaque
+   mage.attaque=300;		//Attaque corriger
    mage.mana=600;
 
     if(nomClasse == "Guerrier")
@@ -41,7 +41,7 @@ Classes getClasse(string nomClasse)
 
 int main(int argc, char** argv) {
 
-   getRace(argv[1]);
-   getClasse(argv[2]);
+    getRace(argv[1]);
+    getClasse(argv[2]);
 
 }
