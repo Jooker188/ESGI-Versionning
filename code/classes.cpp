@@ -26,7 +26,7 @@ Classes getClasse(string nomClasse)
    mage.pv=600;
    mage.attaque=300;		//Attaque corriger
    mage.mana=600;
-   
+
     if(nomClasse == "Guerrier")
         return guerrier;
     else if(nomClasse == "Archer")
