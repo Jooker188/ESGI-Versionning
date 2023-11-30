@@ -12,7 +12,7 @@ Quetes genQuete(int id)
         Quetes quete_n1;
         quete_n1.id=1;
         quete_n1.nom="Quete de depart";
-        quete_n1.objectif="Rejoiniez les corrdonnees x: 48 ";  //Manque la la corrdonnee y
+        quete_n1.objectif="Rejoiniez les corrdonnees x: 48 y:2 ";  //Correction: ajoute de y:2  
         quete_n1.ifClear=false;
 
         return quete_n1;
