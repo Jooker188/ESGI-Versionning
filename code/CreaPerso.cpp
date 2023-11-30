@@ -1,8 +1,11 @@
+
 #include <iostream>
 #include <string>
 
+#include <stdio.h>>
 
 using namespace std;
+
 
 class Race {
 public:
@@ -14,6 +17,7 @@ public:
 
 
 };
+
 
 Race getRace(string raceReq)
 {
@@ -60,6 +64,8 @@ public:
 
 };
 
+
+#Récupérer la Classe du personnage
 Classes getClasse(string nomClasse)
 {
     Classes guerrier;
@@ -104,6 +110,8 @@ public:
 
 };
 
+
+//contient et affiche les 2 compétances
 class CompetanceSet{
 public:
     Competances base;
@@ -123,6 +131,9 @@ public:
     }
 };
 
+
+
+#Récupération des copétance de la bonne classe
 CompetanceSet getCompetance(Classes classe)
 {
     if(classe.nom == "Guerrier")
@@ -190,45 +201,8 @@ CompetanceSet getCompetance(Classes classe)
 }
 
 
-class Familier{
-public:
-    string nom;
-    int pv;
-    int attaque;
-};
 
-
-Familier choixFamilier(string nom)
-{
-    if(nom=="Loup")
-    {
-        Familier loup;
-        loup.nom="Loup";
-        loup.pv=500;
-        loup.attaque=30;
-        return loup;
-    }
-    else if(nom=="Harpie")
-    {
-        Familier harpie;
-        harpie.nom="harpie";
-        harpie.pv=500;
-        harpie.attaque=30;
-        return harpie;
-    }
-    else if(nom=="Pegase")
-    {
-        Familier pegase;
-        pegase.nom="Pegase";
-        pegase.pv=500;
-        pegase.attaque=30;
-        return pegase;
-    }
-    else
-        printf("Nom inconnu");
-}
-
-
+//Vérification du nom
 string choixNom(string nom)
 {
     //Calcule longeure de Nom
@@ -282,6 +256,8 @@ public:
 
 };
 
+
+//Création du personnage
 Personnage crePerso() //Creation de personage
 {
     Personnage newPerso;
@@ -347,128 +323,12 @@ Personnage crePerso() //Creation de personage
 
     return newPerso;
 
-}
-
-class Quetes{
-public:
-    string nom;
-    int id;
-    string objectif;
-    bool ifClear;
-
-    void affichQueteStatus()
-    {
-        cout << "Nom: " << nom << endl;
-        cout << "objectif: " << objectif << endl;
-
-        if(ifClear == true)
-            cout << "Etat: Clear" << endl;
-        else
-            cout << "Etat: En cours" << endl;
-
-    }
-};
-
-
-Quetes genQuete(int id)
-{
-
-    if(id ==1)
-    {
-        Quetes quete_n1;
-        quete_n1.id=1;
-        quete_n1.nom="Quete de depart";
-        quete_n1.objectif="Rejoiniez les corrdonnees x: 48 ";  //Manque la la corrdonnee y
-        quete_n1.ifClear=false;
-
-        return quete_n1;
-    }
-
-    else if(id == 2)
-    {
-        Quetes quete_n2;
-        quete_n2.id=2;
-        quete_n2.nom="La suite";
-        quete_n2.objectif="Parler a Bob";
-        quete_n2.ifClear=false;
-
-        return quete_n2;
-    }
-    else
-        cout << "Quete invalide" << endl;
-
-}
-
-
-class Spawn_point{
-public:
-    string nom_lieu;
-    int coor_X;
-    int coor_Y;
-    int spawnID;
-
-    void affichSpawn()
-    {
-        cout << "Lieu: " << nom_lieu << endl;
-        cout << "X: " << coor_X << "       Y:" << coor_Y << endl;
-    }
-};
-
-Spawn_point create_spawn_point(int spawnID)
-{
-    if(spawnID == 1)
-    {
-        Spawn_point ville;
-        ville.nom_lieu="Ville";
-        ville.spawnID=1;
-        ville.coor_X=63;
-        ville.coor_Y=381;
-
-        return ville;
-    }
-    else if(spawnID == 2)
-    {
-        Spawn_point foret_des_elfes;
-        foret_des_elfes.nom_lieu="Foret des Elfes";
-        foret_des_elfes.spawnID=2;
-        foret_des_elfes.coor_X=167;
-        foret_des_elfes.coor_Y=125;
-
-        return foret_des_elfes;
-    }
-    if(spawnID == 3)
-    {
-        Spawn_point cite_des_nains;
-        cite_des_nains.nom_lieu="Cite des Nains";
-        cite_des_nains.spawnID=3;
-        cite_des_nains.coor_X=1687;
-        cite_des_nains.coor_Y=963;
-
-        return cite_des_nains;
-    }
-
-}
 
 int main(int argc, char** argv) {
 
-    //getRace(argv[1]);
-    //cout << getClasse(argv[1]).attaque << endl;
-    //competanceSet PersoCompetances;
-    //PersoCompetances = getCompetance(getClasse(argv[1]));
-    //Familier familierChoisis;
-    //familierChoisis = choixFamilier(argv[1]);
-    //cout << choixNom("Name");
-    //    Personnage persoCree;
-    //    persoCree=crePerso();
-    //    persoCree.affichPerso();
 
-    //    Quetes maQuete;
-    //    maQuete=genQuete(1);
-    //    maQuete.affichQueteStatus();
-
-    Spawn_point mySpawn;
-    mySpawn =create_spawn_point(3);
-    mySpawn.affichSpawn();
-
+    Personnage persoCree;
+    persoCree=crePerso();
+    persoCree.affichPerso();
 
 }
